@@ -2,6 +2,24 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+# Add env file 
+```bash
+VITE_API_URL=backendurl
+VITE_AWS_ACCESS_KEY_ID=your aws secret 
+VITE_AWS_SECRET_ACCESS_KEY=your aws access key iam user
+VITE_AWS_REGION=s3 bucket region
+VITE_AWS_S3_BUCKET_NAME=your bucket name
+```
+
+## Compile and run the project
+
+```bash
+# development
+$ yarn run dev
+
+
+```
+
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
